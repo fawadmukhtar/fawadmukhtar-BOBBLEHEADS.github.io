@@ -1,0 +1,589 @@
+/*@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url(fonts/Myriad-Pro-Bold.ttf);
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/Myriad-Pro-Semibold.ttf);
+}
+
+*/
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,html{
+	font-family: 'MyriadPro';
+}
+body {
+    background-image: url(../img/body.png);
+    background-repeat: repeat;
+}
+.pd-20{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mg-15{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.pd-0{
+	padding: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 1px 19px 8px rgba(136, 136, 136, 0.76);
+}
+
+div.container {
+    max-width: 960px;
+    width: 96%;	
+}
+
+*{
+	box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+/*Header Styles*/
+.header {
+    background-color: #3e8b53;
+    background: -webkit-linear-gradient(#3e8b53, #57a96c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3e8b53, #57a96c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3e8b53, #57a96c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3e8b53, #57a96c);
+}
+
+.header .logo-left {
+    padding-top: 34px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.header .logo-left h4{
+	font-family: MyriadPro;
+    color: #fff;
+    font-size: 24px;
+    /* text-align: center; */
+}
+
+.header .logo-left h4 span{
+	border-bottom: 4px solid #fff;
+	font-weight: bold;
+	font-size: 30px
+}
+
+ul.autoplay {
+    list-style: none;
+}
+
+.header .center-image {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.header .right-logo {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 162px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header .logo-left {
+		text-align: center;
+		padding-bottom: 40px;
+    }
+}
+
+/*End Header Styles*/
+
+/*********************************************/
+				/*Slider Style*/
+/********************************************/
+.slick-slide img {
+    /* padding: 10px 0; */
+    margin: 0 auto;
+    border: 4px solid #dfdfdf;
+}
+.slick-prev:before{
+	content: '\f100' !important;
+	font-family: FontAwesome !important;
+}
+.slick-prev:before, .slick-next:before{
+	color: #222 !important;
+	font-family: FontAwesome !important;
+	font-size: 24px !important;
+}
+.slick-next:before{ 
+	content: '\f101' !important;
+	font-family: FontAwesome !important;
+}
+.slick-dots li.slick-active button:before{
+	color: #3d8a52 !important;
+	display: block;
+}
+.slick-dots li button:before{
+	display: none;
+	content: '\f111' !important;
+	font-family: FontAwesome !important;
+	font-size: 14px !important;
+    text-align: center;
+}
+.slick-prev{
+	height: 103px !important;
+	background: #ebebeb !important;
+	border: 1px solid #ddd !important;
+	width: 25px !important;
+}
+.slick-next{
+	height: 105px !important;
+	background: #ebebeb !important;
+	border: 1px solid #ddd !important;
+	width: 25px !important; 
+}
+
+ul.autoplay {
+    padding: 0;
+}
+
+.slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slider h2 {
+    font-size: 24px;
+    color: #3b874f;
+    text-align: center;
+    font-family: MyriadPro;
+    font-weight: bold;
+
+}
+
+/*********************************************/
+				/*End Slider Style*/
+/********************************************/
+
+
+/*********************************************/
+				/*Form Style*/
+/********************************************/
+
+.section-two {
+    border: 4px solid #e1e1e1;
+}
+
+.sub-section-two {
+    background-image: url(../img/form-image.png);
+    border-bottom: 4px solid #e1e1e1;
+}
+.sub-section-two h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #525252;
+    font-family: MyriadPro;
+    font-weight: bold;
+}
+
+.sub-section-two h4 span {
+    color: #3b874f;
+}
+
+.form-left h4 {
+    color: #525252;
+    font-size: 14px;
+    /* font-weight: 600; */
+    font-weight: 600;
+}
+
+.form-left p {
+    color: #525252;
+    font-size: 14px;
+    /* text-align: center; */
+    font-family: MyriadPro;
+    /* padding-left: 26px; */
+}
+.row.form-radio {
+    max-width: 300px;
+}
+
+.form-left .custom {
+    padding-right: 0;
+    /* width: 130px; */
+    text-align: center;
+    /* padding: 0; */
+}
+
+.form-left .or {
+    /* padding: 0; */
+    /* width: 22px; */
+    text-align: center;
+    padding: 0;
+}
+
+.form-left .tux {
+    /* width: 130px; */
+    text-align: center;
+    padding-left: 0;
+}
+.form-left .or span {
+    font-size: 14px;
+    color: #525252;
+    font-weight: 600;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.form-left .form-left-title {
+    margin: 12px 0;
+}
+
+.form-left .input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.form-left img {
+    border: 2px solid #cccccc;
+    cursor: pointer;
+}
+
+.form-left input[type=radio]:checked + label>img {
+    border: 3px solid #3b874f;
+    /* transition: 200ms all; */
+}
+
+select.groom {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 10%;
+    color: #717171;
+    font-family: 'MyriadPro';
+    font-weight: bold;
+}
+
+
+label.control-label {
+    color: #525252;
+    font-size: 14px;
+    font-family: MyriadPro;
+}
+
+select.groom2 {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 4%;
+    margin-left: 20px;
+    color: #717171;
+    font-family: 'MyriadPro';
+    font-weight: bold;
+}
+
+input.groom2:focus {
+    text-align: center;
+    font-size: 14px;
+    color: #717171;
+    font-family: 'MyriadPro';
+    font-weight: bold;
+}
+
+.form-section {
+	background-color: #3e8b53;
+    background: -webkit-linear-gradient(#f9f9f9, #d8d8d9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9f9, #d8d8d9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9f9, #d8d8d9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9f9, #d8d8d9);
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.form-right {
+    width: 46%;
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.text-area {
+    width: 82%;
+    margin-left: 66px !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #717171;
+  font-family:'MyriadPro';
+  font-weight: bold; 
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #717171;
+  font-family:'MyriadPro';
+  font-weight: bold;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #717171;
+  font-family:'MyriadPro';
+  font-weight: bold;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #717171;
+  font-family:'MyriadPro';
+  font-weight: bold;
+}
+
+.orange-btn {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -86px;
+}
+.orange-btn .button {
+    text-decoration: none;
+    padding: 25px 0;
+    width: 40%;
+    margin: auto;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #fff;
+    background: rgb(253,141,1);
+    background: linear-gradient(to bottom, rgba(253,141,1,1) 0%,rgba(253,55,1,1) 100%);
+    font-family: 'MyriadPro';
+    font-weight: bold;
+}
+.orange-btn .button:hover{
+	background: #FD8D01;
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-6.form-left {
+	    margin: 0 auto;
+	    text-align: center;
+	    width: 400px;
+	}
+	.row.form-radio {
+	    max-width: 285px;
+	    margin: 0 auto;
+	}
+
+	.col-sm-6.form-right {
+	    margin: 0 auto;
+	    text-align: center;
+	    /*width: 600px;*/
+	}
+
+
+
+	.col-sm-6.form-right {
+	    width: 100%;
+	    float: none;
+	    max-width: 80%;
+	    margin: auto;
+	}
+
+	.col-sm-6.form-right textarea {
+	    width: 100%;
+	    margin-left: 0;
+	}
+
+	.form-group.text-area {
+	    width: 100%;
+	    margin: 0!important;
+	}
+}
+
+
+
+
+/*********************************************/
+				/*End form Style*/
+/********************************************/
+
+
+/*********************************************/
+				/*Steps Style*/
+/********************************************/
+
+.section-three-title h4 {
+    color: #525252;
+    font-size: 18px;
+    font-family: 'MyriadPro';
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-three-title h4 {
+		text-align: center;
+
+    }
+}
+
+.step {
+    background-color: #f1f1f1;
+    background: -webkit-linear-gradient(#f1f1f1, #fff);
+    background: -o-linear-gradient(#f1f1f1, #fff);
+    background: -moz-linear-gradient(#f1f1f1, #fff);
+    background: linear-gradient(#f1f1f1, #fff);
+    margin-right: 1%;
+    width: 24.25%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.last.step {
+    margin-right: 0;
+}
+
+
+.step h4 {
+    color: #d90000;
+    font-size: 18px;
+    font-family: 'MyriadPro';
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+.step h4:nth-child(2){
+	color: #013189;	
+}
+
+.step img {
+    margin-top: 28px;
+}
+
+@media only screen and (max-width: 767px) {
+    .step {
+		margin: 0 auto;
+		padding-top: 10px;
+
+    }
+
+    .last.step {
+    	margin: 0 auto;
+	}
+}
+
+/*********************************************/
+				/*End Steps Style*/
+/********************************************/
+
+/*********************************************/
+				/*Section-4 Style*/
+/********************************************/
+
+.section-4 {
+    text-align: center;
+}
+
+.section-4 h4 {
+	font-family: 'MyriadPro';
+	font-weight: bold;
+	font-size: 18px;
+	color: #525252;
+	text-transform: uppercase;
+	padding-top: 66px
+}
+
+.section-4-1 {
+    padding-bottom: 40px;
+}
+
+.section-4-1 .list-item {
+    border: 1px dashed #d8e7dc;
+    margin-top: 10px;
+    background-image: url(../img/right-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 84px center;
+    padding-left: 108px;
+
+}
+
+.section-4-1 .list-item p {
+    font-size: 16px;
+    color: #525252;
+    font-family: 'MyriadPro';
+    font-weight: 600;
+    padding: 8px;
+    margin: 0;
+}
+
+.section-4-2 {
+    text-align: center;
+    font-family: 'MyriadPro';
+    font-weight: 600;
+    font-size: 16px;
+    color: #1a1a1e;
+}
+
+
+.section-4-2 a ,.section-4-2 span{
+	color: #3a854e;
+}
+
+.section-4-2 .call{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section-4 img {
+    	margin-top: 20px;
+	}
+
+	.section-4 h4 {
+	    padding-top: 24px;
+	}
+}
+
+
+/*********************************************/
+				/*End Section-4 Style*/
+/********************************************/
+
+
+/*********************************************/
+				/*Footer Style*/
+/********************************************/
+
+
+.footer{
+	background-color: #e1e1e1;
+	color:#3a3a3a;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+}
+
+.footer h4{
+	font-family: 'MyriadPro';
+	font-weight: bold;
+}
